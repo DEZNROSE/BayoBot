@@ -25,5 +25,5 @@ const client = new CommandoClient({
  
  
 
-client.login(process.env.BOT_TOKEN)
+client.login(process.env.BOT_TOKEN);
 .then(() =>{console.log(`Connected as: ${client.user.username}`)})
