@@ -1,1 +1,1 @@
-worker: node bayo
+bayo: node bot.js
